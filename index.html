@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shad Khan</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUME</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="avatar.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.facebook.com/shadkhan0207" target="_blank">
+              <i data-feather="facebook"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://twitter.com/___shadkhan___" target="_blank">
+             <i data-feather="twitter"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/shadkhan1993/" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="https://drive.google.com/file/d/1aUwZGxs27sBPlvIjW52yxtoCyRcab4MA" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">ONLINE RESUME</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"You don't have to be great to start, but you have to start to be great."</p>
+            <h1>Shad Khan</h2>
+            <h2>Business Analyst</h3>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+            <p class="w3-margin-top-2"> 
+              Senior Associate Consultant with 4 years of experience seeking a Business Analyst / Product Manager role. 
+              Have experience in functional and business analysis track to reduce complexity and increase efficiency up to 99% by 
+              leveraging data and automation techniques. 
+            </p>
+            <p class=""> 
+              I have an MBA in Operations Management and Information Systems from Symbiosis Institute of management studies, Pune, 
+              BE in Information technology from Army Institute of Technology, Pune, and 4+ years of experience taking business effective decisions. 
+            </p>
+            <p class="">
+              I have experience in requirement gathering, requirement elicitation, requirement tracking, UML diagrams,  
+              BA documentation (BRD, FRD, HLD, DLD), manual/functional testing, RCA, process mapping, SQL, and MS Office Suite, and agile methodology. 
+            </p>
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <h3 class="w3-border-amber">MY EMPLOYMENT HISTORY</h3>
+              <div class="">
+                <h4>Senior Associate Consultant at the Infosys</h4>
+                <p>May 2021 - Present</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>‣ Working with the client and senior management to understand and communicate weekly sprint requirements to desired stakeholders.</li>
+                  <li>‣ Conduct RCA(root cause analysis) to identify issues and scope of improvement within the business process.</li>
+                  <li>‣ Conducting primary research through interviews and questionnaires of clients to get a better understanding of the business requirements.</li>
+                  <li>‣ Creation of BRD, FRS, HLD, and DLD for project developers and clients.</li>
+                  <li>‣ Analyze and gather user requirements using use cases, mocks, and standup meetings.</li>
+                  <li>‣ Assigned tasks to associates and updated all involved parties to ensure business delivery and deadlines are met.</li>
+                  <li>‣ Produced multiple reusable documents to support knowledge transfers regarding business processes.</li>
+                  <li>‣ Acting as a functional consultant to test implementations within the said sprint.</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Application Developer Analyst at the Accenture</h4>
+                <p>March 2016 - May 2019 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>‣ Analyze clients' business requirements and processes through document analysis, workshops, and workflow analysis.</li>
+                  <li>‣ Conduct testing including functional, regression, user acceptance, integration, and performance to verify client's needs are met.</li>
+                  <li>‣ Act as a liaison between business and technical personnel to ensure a mutual understanding of processes and applications.</li>
+                  <li>‣ Analyzed high-level requirements to create business effective solutions.</li>
+                  <li>‣ Creation of BRD, FRS, SRS as part of the BA team.</li>
+                  <li>‣ Increased efficiency by 99% of two business processes for clients which resulted in exponential cost savings with the help of data and elimination of redundancies in the workflow.</li>
+                  <li>‣ Researched and prepared a monthly project health report with the collaboration of the QA team to gauge the operating inefficiencies of the respective project cycle.</li>
+                  <li>‣ Led a team of 4 associates to deliver 1000+ requirements/change requests across the project lifecycle.</li>
+                </ul>
+              </div>
+              
+            </div>
+
+            <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY EDUCATION</h3>
+                <h4>MBA, Symbiosis Institute of  Management studies, Pune</h4>
+                <p>June 2019 - April 2021 </p>
+                <h4>BE(I.T), Army Institute of Technology, Pune</h4>
+                <p>July 2011 - June 2015 </p>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY SKILLS</h3>
+              <!--SOFT SKILLS-->
+              <h4>BA skills</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>Project Management</li>
+                <li>RCA (Fishbone & Why-Why Analysis)</li>
+                <li>Requirement Gathering</li>
+                <li>Process Mapping</li>
+                <li>BRD- Business Requirement Document</li>
+                <li>FRD- Functional Requirement Document</li>
+                <li>SRS- Software Requirement Specification</li>
+                <li>Interpersonal Skills</li>
+              </ul>
+              <!--TECHNICAL SKILLS-->
+              <h4>Technical skills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>C# Development</li>
+                  <li>Advanced Excel</li>
+                  <li>Microsoft Office</li>
+                  <li>Functional Testing</li>
+                  <li>Manual Testing</li>
+                  <li>SQL</li>
+                </ul>
+            </div>
+
+            <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I love cooking new dishes in my free time.</li>
+                  <li>I like to write poems in english and urdu.</li>
+                </ul>
+            </div>
+
+            <!--REFERENCE SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY REFERENCES</h3>
+              <h4>Indraneel Bhattacharjee, Senior Associate at Infosys</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>+91 7387197887</li>
+                <li>indraneel.b@infosys.com</li>
+              </ul>
+              <h4>Honey Dayal, Team Lead at Accenture</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>+91 9958207419</li>
+                <li>honeydayal26@gmail.com</li>
+              </ul>
+            </div>            
+          </div>
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Shad Khan</p>
+              <p>Adress: Ajeet Ganj Colony, TP Nagar, Kanpur</p>
+              <p>Phone number: +91 9307913045</p>
+              <p>E-mail: shadkhan.job@gmail.com</p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2022 - Shad Khan</p>
+           <p class="w3-small">Feel free to contact me on the above mentioned details.</p>
+          
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
+
